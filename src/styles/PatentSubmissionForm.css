@@ -1,0 +1,60 @@
+.patent-submission-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.patent-submission-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.patent-submission-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.patent-submission-form .form-group input[type="text"],
+.patent-submission-form .form-group input[type="date"],
+.patent-submission-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.patent-submission-form .form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.patent-submission-form .submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.patent-submission-form .submit-button:hover {
+  background-color: #0056b3;
+}
+
+.patent-submission-form .submit-button:active {
+  background-color: #00408a;
+}
+
+.patent-submission-form .submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
